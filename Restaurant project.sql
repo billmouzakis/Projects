@@ -73,7 +73,7 @@ FROM order_details;
 
 -- 9) What is the date range of the table
 
--- Let's check if the column order_date is in date formata
+-- Let's check if the column order_date is in date format
 
 SHOW FIELDS
 FROM order_details;
@@ -141,7 +141,7 @@ GROUP BY order_id
 ORDER BY total_price DESC
 limit 5;
 
--- 4. View the details of the highest spend order. What insights can you gather from the
+-- 4. View the details of the highest spend order. What insights can you gather from theis order
 
 SELECT category, COUNT(category)
 FROM
